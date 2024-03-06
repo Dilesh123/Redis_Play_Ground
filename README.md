@@ -16,3 +16,9 @@
     get user:1
     set user:1 Hello nx //It will not set if the key is already there 
     mget user:1 user:2 //To fetch multiple users
+
+# Create a nodejs project with redis
+## Create a folder as redis-playground
+
+Use npm init -y  
+npm i ioredis  
